@@ -1,0 +1,56 @@
+.header {
+background: rgb(179, 228, 221);
+color: red;
+border: black solid;
+border-radius: 5%;
+width: 90%;
+font-weight: 900;  
+margin: auto ;
+cursor: pointer ;
+}
+.section {
+background: rgb(247, 231, 210);
+width: 92%;
+font-weight: 600;
+margin-top: 25;
+margin-bottom: 30px;
+margin-left:auto;
+margin-right: auto;
+}
+.main {
+background: rgb(144, 238, 186) ;
+cursor: wait;
+overflow: scroll;
+width: 350px; 
+height: 200px; 
+padding: 5px; 
+border: solid 2px black;
+}
+.footer {
+background: rgb(222, 215, 245) ;
+padding: auto;
+
+}
+.container {
+
+}
+.border {
+color: red;
+height: 200px;
+width: 300px;
+padding-top: 20px;
+
+}
+#a {
+color: rgb(177, 26, 26);
+background: rgb(138, 120, 236);
+border-radius: 90%;
+}
+a {
+    color: red;
+    background: rgb(7, 0, 0);
+}
+body {
+background: rgb(67, 172, 233);
+
+}
