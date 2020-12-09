@@ -16,15 +16,21 @@ margin-top: 25;
 margin-bottom: 30px;
 margin-left:auto;
 margin-right: auto;
+border-radius: 2%;
 }
 .main {
 background: rgb(144, 238, 186) ;
 cursor: wait;
-overflow: scroll;
-width: 350px; 
-height: 200px; 
-padding: 5px; 
-border: solid 2px black;
+width: 600px;
+margin: 20px;
+border-radius: 2%;
+}
+.text_main {
+    overflow: scroll;
+    width: 550px;
+    height: 200px; 
+    padding: 5px; 
+    border: solid 2px black;
 }
 .footer {
 background: rgb(222, 215, 245) ;
@@ -36,9 +42,9 @@ padding: auto;
 }
 .border {
 color: red;
-height: 200px;
+height: 100px;
 width: 300px;
-padding-top: 20px;
+padding: 3px;
 
 }
 #a {
@@ -52,5 +58,16 @@ a {
 }
 body {
 background: rgb(67, 172, 233);
-
+}
+ul {
+    list-style-type: circle;
+}
+ol {
+    list-style-type: upper-roman;
+}
+.hide { 
+    visibility: hidden; 
+}
+.visual:hover + .hide {
+    visibility: visible;
 }
