@@ -9,14 +9,12 @@ margin: auto ;
 cursor: pointer ;
 }
 .section {
-background: rgb(247, 231, 210);
-width: 92%;
+background: rgb(222, 215, 245);
+width: 90%;
 font-weight: 600;
-margin-top: 25;
-margin-bottom: 30px;
-margin-left:auto;
-margin-right: auto;
+margin: auto;
 border-radius: 2%;
+padding: 20px;
 }
 .main {
 background: rgb(144, 238, 186) ;
@@ -24,21 +22,23 @@ cursor: wait;
 width: 600px;
 margin: 20px;
 border-radius: 2%;
+padding: 2px;
 }
 .text_main {
-    overflow: scroll;
-    width: 550px;
-    height: 200px; 
-    padding: 5px; 
-    border: solid 2px black;
+overflow: scroll;
+width: 550px;
+height: 200px; 
+padding: 5px; 
+border: solid 2px black;
 }
 .footer {
-background: rgb(222, 215, 245) ;
-padding: auto;
-
+background: rgb(91 155 211);
+margin: 20px;
+padding: 15px;
 }
 .container {
-
+margin: 20px;
+background-color: white;
 }
 .border {
 color: red;
