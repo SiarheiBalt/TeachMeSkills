@@ -1,0 +1,102 @@
+body {
+    background:#333333 ;
+}
+.header {
+    background: white ;
+    padding: 5px;
+    margin-left: 30px;
+    margin-right: 30px;  
+}
+.baner {
+    background: white ;
+    padding: 5px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.main {
+    /* padding: 5px; */
+}
+.footer {
+    padding: 5px;
+    background: rgb(37, 28, 28) ;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.container {
+    
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.logo {
+    margin: 40px;
+    height: 40px;
+    text-align: center;
+    font-size: x-large;
+}
+.logo-sub {
+    height: 38px;
+    text-align: center;
+    font-size: small;
+}
+.title {
+    display: flex;
+    flex-direction: column;
+}
+.logo__element {
+    
+}
+.menu-baner {
+    display: flex;
+}
+.menu1, .menu2, .menu3 {
+    width: 33.3%;
+    text-align: center;
+    margin: 10px;
+    font-size: small;
+}
+.menu-picture {
+    border: 2px solid orange;
+    border-radius: 100px;
+}
+.header-menu {
+    margin: 30px;
+    font-size: large;
+}
+.header-main {
+    font-size: xx-large;
+    color: white;
+    text-align: center;
+    margin: 40px;
+}
+.header-main__element {
+
+}
+.header-sub {
+    font-size: small;
+    color: white;
+    text-align: center;
+    margin: 45px;
+}
+.border-link {
+    border: 2px solid white;
+    padding: 7px;
+    margin-left: 45%;
+    margin-right: 45%;
+}
+.link-text {
+    text-align: center;
+    color: white;
+}
+.main-content__top__size {
+    padding-top: 10px
+}
+.main-content__bottom__size {
+    padding-bottom: 40px;
+}
+.footer-text {
+    text-align: center;
+    color: white;
+}
+.footer-content {
+    margin-top: 40px;
+}
