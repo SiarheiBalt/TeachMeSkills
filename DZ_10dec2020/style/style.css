@@ -1,6 +1,5 @@
 body {
-    background-color:rgb(133, 196, 165);
-    padding: 0px 30px;
+    background-color: black;
 }
 .header, .baner, .main {
     background-color: white;
@@ -17,13 +16,14 @@ body {
     align-items: center;
 }
 .head_title {
-    margin: 40px 10px 50px 10px;
+    margin: 40px 10px 20px 10px;
     text-align: center;
     font-size: x-large;
     font-family: cursive;
 }
 .line_title {
-width: 60px;
+    width: 90px;
+    border-bottom: solid 1px orange;
 }
 .sub_title {
     margin:15px 10px;
@@ -33,20 +33,22 @@ width: 60px;
 .baner-content {
     display: flex;
     justify-content: space-around;
-    padding: 50px 0px;
+    padding: 50px 0px 25px;
 }
 .menu-1, .menu-2, .menu-3 {
     display: flex;
     align-items: center;
     flex-direction: column;
     margin: 0px 35px;
+    max-width: 210px;
 }
 .title-menu {
     font-size: large;
-    margin: 40px;
+    margin: 40px 5px;
+    font-family: cursive;
 }
 p {
-    font-size: smaller;
+    font-size: small;
     text-align: center;
 }
 .images-menu {
@@ -61,17 +63,19 @@ p {
     padding-top: 20px;
 }
 .header-main_element {
-    width: 75px;
+    width: 60px;
+    border-bottom: solid 1px white;
 }
 .header-main {
     margin: 30px 0px;
     font-size: xx-large;
     color: white;
+    font-family: fantasy;
 }
 .header-main_sub {
     margin: 20px 0px;
     color: white;
-    font-size: smaller;
+    font-size: x-small;
 }
 .header-main_link {
     margin: 20px 0px;
@@ -86,4 +90,12 @@ p {
     color: white;
     font-family: cursive;
     text-align: center;
+}
+.list-footer {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.list-footer__element {
+    margin: 10px;
 }
