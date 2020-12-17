@@ -348,3 +348,228 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.pricing-content {
+    height: 800px;
+} 
+.pricing-head {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.pricing-title {
+    height: 42px;
+    width: 409px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 42px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 60px;
+
+} 
+.pricing-title__element {
+    border-bottom: solid rgb(236, 121, 121);
+    height: 2px;
+    width: 64px;
+}
+
+.pricing-subtitle {
+    height: 19px;
+    width: 363px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+}
+.pricing-rectangl__1 > ul > li, .pricing-rectangl__2 > ul > li, .pricing-rectangl__3 > ul > li {
+    height: 42px;
+    width: 340px;
+    border: none;
+    background-color:white;
+    margin-bottom: 2px;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: center;
+    display: inline-block;
+}
+.pricing-rectangl__2 {
+    margin-top: -26px;
+}
+.pricinge-table {
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+.pricing-rectangl__3 > ul > li:hover {
+    border: solid red 1px;
+}
+.pricing-rectangl__1 > ul > li:hover {
+    border: solid red 1px;
+}
+.pricing-rectangl__2 > ul > li:hover {
+    border: solid red 1px;
+}
+.pricing-rectangl__2 > ul > li:nth-child(-n+3) {
+    color:white;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 27px;
+    background-color: #333333;
+}
+.pricing-rectangl__2 > ul > li:nth-child(1) {
+    font-size: 18px;
+    font-weight: 500;
+}
+.pricing-rectangl__2 > ul > li:nth-child(3) {
+    font-size: 14px;
+    font-weight: 400;
+    color: #F5F5F5;
+}
+.pricing-rectangl__2 > ul > li:nth-child(2) {
+   height: 100px;
+}
+.pricing-rectangl__3 > ul > li:nth-child(-n+3) {
+    color:white;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 27px;
+    background-color: #333333;
+}
+.pricing-rectangl__3 > ul > li:nth-child(1) {
+    font-size: 18px;
+    font-weight: 500;
+}
+.pricing-rectangl__3 > ul > li:nth-child(3) {
+    font-size: 14px;
+    font-weight: 400;
+    color: #F5F5F5;
+}
+.pricing-rectangl__3 > ul > li:nth-child(2) {
+   height: 100px;
+}
+.pricing-rectangl__1 > ul > li:nth-child(-n+3) {
+    color:white;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 27px;
+    background-color: #333333;
+}
+.pricing-rectangl__1 > ul > li:nth-child(1) {
+    font-size: 18px;
+    font-weight: 500;
+}
+.pricing-rectangl__1 > ul > li:nth-child(3) {
+    font-size: 14px;
+    font-weight: 400;
+    color: #F5F5F5;
+}
+.pricing-rectangl__1 > ul > li:nth-child(2) {
+   height: 100px;
+}
+.testimonials-content {
+    height: 600px;
+}
+.head-testimonials {
+    height: 131px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.testimonials-title {
+    height: 42px;
+    width: 668px;
+    font-family: Raleway;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 42px;
+    text-align: center;
+    color: #212121;
+    text-transform: uppercase;
+}
+.testimonials-title__element {
+    height: 2px;
+    width: 64px;
+    border-bottom: solid rgb(255, 0, 0);
+}
+.testimonials-subtitle {
+    height: 19px;
+    width: 363px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px;
+    color: #86878B;
+}
+.manager-testimonials {
+    height: 140px;
+    width: 290px;
+    position: absolute;
+    margin-bottom: 40px;
+}
+.manager-description{
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    color: #86878B;
+    border-radius: 8px;
+    background-color: #E2E2E2;
+    width: 289px;
+    height: 110px;
+}
+.picture-manager {
+    height: 70px;
+    width: 70px;
+    margin-left: 32px;
+}
+.name-manager {
+    width: 90px;
+    height: 70px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 27px;
+    color: #333333;
+    text-align: right;
+    margin-right: 33px;
+}
+.name-manager::after {
+    content: " Manager";
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px;
+    color: #86878B;
+}
+.menu-block {
+    width: 330px;
+    height: 240px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+.menu-testimonials {
+    display: flex;
+    justify-content: space-around;
+}
+
+
