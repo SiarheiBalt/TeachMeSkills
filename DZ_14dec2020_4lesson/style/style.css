@@ -250,6 +250,7 @@ ul {
 .button-feature > button:nth-child(2n) {
    background-color: rgb(236, 121, 121);
    color: white;
+   border: solid rgb(236, 121, 121);
 }
 .title-feature {
     height: 27px;
@@ -396,7 +397,8 @@ p {
     font-weight: 400;
     line-height: 19px;
     text-align: center;
-    display: inline-block;
+    display: flex;
+    justify-content: center;
 }
 .pricing-rectangl__2 {
     margin-top: -26px;
@@ -478,11 +480,14 @@ p {
 .pricing-rectangl__1 > ul > li:nth-child(2) {
    height: 100px;
 }
+.pricing-rectangl__1 > ul, .pricing-rectangl__2 > ul, .pricing-rectangl__3 > ul {
+    margin: 30px;
+}
 .testimonials-content {
     height: 600px;
 }
 .head-testimonials {
-    height: 131px;
+    height: 205px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -499,6 +504,7 @@ p {
     text-align: center;
     color: #212121;
     text-transform: uppercase;
+    margin-top: 80px;
 }
 .testimonials-title__element {
     height: 2px;
@@ -523,7 +529,7 @@ p {
 }
 .manager-description{
     font-family: Open Sans;
-    font-size: 14px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: 19px;
@@ -534,11 +540,13 @@ p {
     background-color: #E2E2E2;
     width: 289px;
     height: 110px;
+    display: flex;
+    align-items: center;
 }
 .picture-manager {
     height: 70px;
     width: 70px;
-    margin-left: 32px;
+    margin: -20px 32px;
 }
 .name-manager {
     width: 90px;
@@ -549,7 +557,7 @@ p {
     line-height: 27px;
     color: #333333;
     text-align: right;
-    margin-right: 33px;
+    margin: -32px 33px;
 }
 .name-manager::after {
     content: " Manager";
@@ -571,5 +579,137 @@ p {
     display: flex;
     justify-content: space-around;
 }
-
-
+.main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 325px;
+}
+.header-main_element {
+    width: 60px;
+    border-bottom: solid 1px white;
+    margin-bottom: 20px;
+}
+.header-main {
+    margin: 60px 0px 40px;
+    color: white;
+    font-family: Raleway;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 42px;
+    text-align: center;
+}
+.header-main_sub {
+    margin: 20px 0px;
+    color: white;
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 19px;
+    text-align: center;
+}
+.header-main_link {
+    margin: 20px 0px;
+    color: white;
+    border: 2px solid white;
+    border-radius: 10%;
+    font-size: large;
+    padding: 7px;
+}
+.background {
+    background-color: black;
+    opacity: 55%;
+}
+.contact-content {
+    height: 700px;
+}
+.header-contact {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.title-head-contact {
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 42px;
+    text-align: center;
+    position: relative;
+    margin-top: 50px;
+    text-transform: uppercase;
+}
+.title-head-contact__element {
+    width: 64px;
+    border-top: solid 2px rgb(236, 121, 121);
+}
+.subtitle-head-contact {
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+}
+.menu-form-contact__1 > ul > li {
+    width: 478px;
+    margin-right: 59px;
+}
+.menu-form-contact__2 > ul > li {
+    width: 478px;
+    margin-right: 59px;
+}
+.form-contact {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 90px;
+}
+.menu-form-contact__1 > ul > li:nth-child(3n) {
+    height: 95px;
+}
+.menu-form-contact__2 > ul > li:nth-child(3n) {
+    height: 95px;
+}
+.menu-form-contact__2 > ul > li:nth-child(-n+2) {
+    border-bottom: white solid;
+}
+.button-contact__push {
+    height: 42px;
+    width: 166px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    background-color:rgb(236, 121, 121);
+    color: #FFFFFF;
+}
+.button-contact {
+    height: 168px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.end-footer {
+    color: white;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+}
+.list-footer {
+    display: flex;
+    justify-content: center;
+}
+.list-footer__element {
+    margin: 17px;
+}
+.background-footer {
+    background-color:rgb(51, 51, 51);
+    height: 101px;
+}
+.list-footer {
+    height: 70px;
+}
+.list-footer__element {
+    display: flex;
+}
