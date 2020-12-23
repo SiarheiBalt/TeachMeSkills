@@ -70,6 +70,10 @@
     content: url(D:/Github/DZ_17dec2020_5lesson/images/Triangle.png);
     margin-left: 83px;
 }
+.logo-header:first-child {
+    animation: show 1s 1s;
+    animation-fill-mode: forwards;
+}
 
 .content-nav {
     width: 942px;
@@ -104,11 +108,16 @@
             line-height: 16px;
             letter-spacing: 1.0909091234207153px;
             text-align: center;
+            cursor: pointer;
         }
     }
 }
+
 .menu-nav > ul > li:nth-last-child(4n) {
     color: #00A4E5;
+}
+.menu-nav > ul > li:hover {
+    color: rgb(204, 97, 25);
 }
 nav > .container {
     border: 1px solid #E6E6E6
@@ -196,17 +205,29 @@ nav > .container {
     .plan_1 {
         height: 224px;
         width: 140px;
+        transition-duration: 250ms, 1s;
         background-image: url(D:/Github/DZ_17dec2020_5lesson/images/plan_1.png)
     }
     .plan_2 {
         height: 224px;
         width: 140px;
+        transition-duration: 250ms;
         background-image: url(D:/Github/DZ_17dec2020_5lesson/images/plan_2.png)
     }
     .plan_3 {
         height: 224px;
         width: 140px;
+        transition-duration: 250ms;
         background-image: url(D:/Github/DZ_17dec2020_5lesson/images/plan_3.png)
+    }
+    .plan_1:hover {
+        transform: translate(-6px, -8px);
+    }
+    .plan_2:hover {
+        transform: translate(-6px, -8px);
+    }
+    .plan_3:hover {
+        transform: translate(-6px, -8px);
     }
 }
 .plan-about-main_element {
@@ -266,7 +287,13 @@ nav > .container {
             text-align: center;
             color:  #FFFFFF;  
             background-color:rgb(0, 164, 229); 
-            border: solid rgb(0, 164, 229);        
+            border: solid rgb(0, 164, 229); 
+            transition-duration: 1s, 700ms, 500ms;       
+        }
+        .button-serv:hover {
+            box-shadow: 4px 5px 6px rgba(66, 63, 63, 0.5);
+            background-color:rgb(14, 121, 163);
+            border: solid rgb(14, 121, 163);
         }
 }
 .title-serv {
@@ -368,6 +395,12 @@ nav > .container {
     color:  #FFFFFF;  
     background-color:rgb(0, 164, 229); 
     border: solid rgb(0, 164, 229);  
+    transition-duration: 500ms, 1s;
+}
+.button:hover {
+    background-color:rgb(16, 117, 156);
+    border: solid rgb(16, 117, 156);
+    box-shadow: 4px 5px 6px rgba(0, 0, 0, .4);
 }
 ///////////////////////////////////////  letter #######################
 .background-letter {

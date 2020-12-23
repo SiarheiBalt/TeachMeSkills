@@ -65,6 +65,10 @@
   content: url(D:/Github/DZ_17dec2020_5lesson/images/Triangle.png);
   margin-left: 83px;
 }
+.logo-header:first-child {
+  animation: show 1s 1s;
+  animation-fill-mode: forwards;
+}
 .content-nav {
   width: 942px;
   height: 65px;
@@ -100,9 +104,13 @@
   line-height: 16px;
   letter-spacing: 1.09090912px;
   text-align: center;
+  cursor: pointer;
 }
 .menu-nav > ul > li:nth-last-child(4n) {
   color: #00A4E5;
+}
+.menu-nav > ul > li:hover {
+  color: #cc6119;
 }
 nav > .container {
   border: 1px solid #E6E6E6;
@@ -191,17 +199,29 @@ nav > .container {
 .plan-about-main .plan_1 {
   height: 224px;
   width: 140px;
+  transition-duration: 250ms, 1s;
   background-image: url(D:/Github/DZ_17dec2020_5lesson/images/plan_1.png);
 }
 .plan-about-main .plan_2 {
   height: 224px;
   width: 140px;
+  transition-duration: 250ms;
   background-image: url(D:/Github/DZ_17dec2020_5lesson/images/plan_2.png);
 }
 .plan-about-main .plan_3 {
   height: 224px;
   width: 140px;
+  transition-duration: 250ms;
   background-image: url(D:/Github/DZ_17dec2020_5lesson/images/plan_3.png);
+}
+.plan-about-main .plan_1:hover {
+  transform: translate(-6px, -8px);
+}
+.plan-about-main .plan_2:hover {
+  transform: translate(-6px, -8px);
+}
+.plan-about-main .plan_3:hover {
+  transform: translate(-6px, -8px);
 }
 .plan-about-main_element {
   height: 58px;
@@ -261,6 +281,12 @@ nav > .container {
   color: #FFFFFF;
   background-color: #00a4e5;
   border: solid #00a4e5;
+  transition-duration: 1s, 700ms, 500ms;
+}
+.content-serv .button-serv:hover {
+  box-shadow: 4px 5px 6px rgba(66, 63, 63, 0.5);
+  background-color: #0e79a3;
+  border: solid #0e79a3;
 }
 .title-serv {
   display: flex;
@@ -359,6 +385,12 @@ nav > .container {
   color: #FFFFFF;
   background-color: #00a4e5;
   border: solid #00a4e5;
+  transition-duration: 500ms, 1s;
+}
+.button:hover {
+  background-color: #10759c;
+  border: solid #10759c;
+  box-shadow: 4px 5px 6px rgba(0, 0, 0, 0.4);
 }
 .background-letter {
   background-color: #171819;
