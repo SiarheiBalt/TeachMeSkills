@@ -150,7 +150,7 @@ nav > .container {
   height: 81px;
 }
 .head-text-about > span::after {
-  content: "Konstruct ";
+  content: " Konstruct ";
   color: #91d8f4;
 }
 .text-about {
@@ -481,13 +481,20 @@ nav > .container {
   text-align: left;
 }
 .ico-footer {
-  color: #FFFFFF;
   opacity: 90%;
   width: 90px;
   height: 140px;
   display: flex;
   justify-content: space-between;
   margin-top: 77px;
+}
+.ico-footer .fab {
+  font-size: 12px;
+}
+.ico-footer a {
+  color: #FFFFFF;
+  width: 20px;
+  height: 20px;
 }
 .contact-footer > ul {
   display: flex;
