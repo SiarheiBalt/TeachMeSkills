@@ -7,6 +7,9 @@
     align-items: center;
     height: 70px;    
 }
+.navigation-content__element {
+    width: 489px;
+}
 .background-nav {
     background-color: #000000;
     height: 70px;
@@ -32,7 +35,7 @@
     justify-content: space-between;
     width: 489px;
     height: 20px;
-    margin-left: 500px;
+    margin-left: 20px;
 }
 .list-menu-nav {
     height: 20px;
@@ -417,7 +420,7 @@ p {
 .pricing-rectangl__2 > ul > li:hover {
     border: solid red 1px;
 }
-.pricing-rectangl__2 > ul > li:nth-child(-n+3) {
+.pricing-rectangl__2 > ul > li:nth-child(-n+3) { 
     color:white;
     font-family: Open Sans;
     font-size: 20px;
@@ -681,6 +684,7 @@ p {
     line-height: 20px;
     background-color:rgb(236, 121, 121);
     color: #FFFFFF;
+    border:rgb(236, 121, 121);
 }
 .button-contact {
     height: 168px;
