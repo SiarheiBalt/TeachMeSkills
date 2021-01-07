@@ -3,7 +3,7 @@
   margin: auto;
 }
 .backgrounde-header {
-  background-image: url(/DZ_17dec2020_5lesson/images/bg.png);
+  background-image: url(images/bg.png);
 }
 .title-header-capital {
   width: 583px;
@@ -57,12 +57,12 @@
 .logo-header {
   color: #FFFFFF;
   margin-top: 41px;
-  background-image: url(DZ_17dec2020_5lesson/images/KONSTRU_T.png);
+  background-image: url(images/KONSTRU_T.png);
   width: 102px;
   height: 21px;
 }
 .logo-header::after {
-  content: url(DZ_17dec2020_5lesson/images/Triangle.png);
+  content: url(images/Triangle.png);
   margin-left: 83px;
 }
 .logo-header:first-child {
@@ -81,10 +81,10 @@
   margin-left: 0px;
   width: 81px;
   height: 17px;
-  background-image: url(DZ_17dec2020_5lesson/images/KONSTRUT.png);
+  background-image: url(images/KONSTRUT.png);
 }
 .logo-header-nav::after {
-  content: url(DZ_17dec2020_5lesson/images/Triangle_nav.png);
+  content: url(images/Triangle_nav.png);
   margin-left: 64.8px;
 }
 .menu-nav {
@@ -200,19 +200,19 @@ nav > .container {
   height: 224px;
   width: 140px;
   transition-duration: 250ms, 1s;
-  background-image: url(DZ_17dec2020_5lesson/images/plan_1.png);
+  background-image: url(images/plan_1.png);
 }
 .plan-about-main .plan_2 {
   height: 224px;
   width: 140px;
   transition-duration: 250ms;
-  background-image: url(DZ_17dec2020_5lesson/images/plan_2.png);
+  background-image: url(images/plan_2.png);
 }
 .plan-about-main .plan_3 {
   height: 224px;
   width: 140px;
   transition-duration: 250ms;
-  background-image: url(DZ_17dec2020_5lesson/images/plan_3.png);
+  background-image: url(images/plan_3.png);
 }
 .plan-about-main .plan_1:hover {
   transform: translate(-6px, -8px);
@@ -308,19 +308,19 @@ nav > .container {
   margin-left: 23px;
   height: 75px;
   width: 65.625px;
-  background-image: url(DZ_17dec2020_5lesson/images/Bitmap.png);
+  background-image: url(images/Bitmap.png);
 }
 .menu-serv-ico_2 {
   margin-left: 23px;
   height: 75px;
   width: 68.625px;
-  background-image: url(DZ_17dec2020_5lesson/images/Bitmap_1.png);
+  background-image: url(images/Bitmap_1.png);
 }
 .menu-serv-ico_3 {
   margin-left: 23px;
   height: 75px;
   width: 67.625px;
-  background-image: url(DZ_17dec2020_5lesson/images/Bitmap_2.png);
+  background-image: url(images/Bitmap_2.png);
 }
 .text-menu-serv {
   margin-left: 23px;
@@ -345,7 +345,7 @@ nav > .container {
   text-align: left;
 }
 .background-get {
-  background-image: url(DZ_17dec2020_5lesson/images/bg_get.png);
+  background-image: url(images/bg_get.png);
 }
 .content-get {
   display: flex;
