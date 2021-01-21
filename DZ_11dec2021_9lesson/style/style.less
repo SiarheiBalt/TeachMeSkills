@@ -1,6 +1,9 @@
 //compress: false
-.wrapper {}
+.wrapper {
+    
+}
 .container {
+    
     display: grid;
     grid-template-columns: 98px 1fr;
     max-width: 1280px;
@@ -115,7 +118,7 @@
     
     h1 {
         width: 128px;
-        font-family: gilroy;
+        font-family: "Gilroy Bold";
         font-size: 30px;
         font-style: normal;
         font-weight: 700;
@@ -150,7 +153,7 @@
         grid-column: end;
     }
     .name__user {
-        font-family: Gilroy;
+        font-family: "Gilroy Bold";
         font-size: 20px;
         font-weight: 600;
         line-height: 24px;
@@ -173,7 +176,7 @@
     }
 }
 .lupa__input input {
-    font-family: Gilroy;
+    font-family: "Gilroy Medium";
     font-size: 1rem;
     font-weight: 400;
     border: solid white;
@@ -186,12 +189,22 @@
     display: grid;
     padding: 0 45px 18px 50px;
 }
+
+
 .grid__row_1 {
     display: grid;
     grid-template-areas: 
     "friends uniq followers";
     grid-template-columns: repeat(3, minmax(200px, 1fr));
     grid-template-rows: 148px;
+    column-gap: 32px;
+} 
+.grid__row_3 {
+    display: grid;
+    grid-template-areas: 
+    "gender geo";
+    grid-template-columns: 0.64fr 0.36fr;
+    grid-template-rows: 242px;
     column-gap: 32px;
 }
 .grid__row_2 {
@@ -208,7 +221,7 @@
 
         .audience__title {
             //styleName: h2;
-        font-family: Gilroy;
+        font-family: "Gilroy SemiBold";
         font-size: 20px;
         font-weight: 700;
         line-height: 24px;
@@ -217,7 +230,7 @@
         }
         .audience__data {
             //styleName: table text;
-        font-family: Gilroy;
+        font-family: "Gilroy Medium";
         font-size: 12px;
         font-weight: 500;
         line-height: 14px;
@@ -236,12 +249,14 @@
             display: grid;
             grid-template-columns: 1fr 1fr 50px;
             grid-template-rows: 1fr 1fr 1fr;
+            font-family: "Gilroy Medium";
             .checkbox {
                 grid-row-start: 2;
                 display: flex;
                 justify-content: flex-end;
                 align-items: baseline;
-            }
+                margin-right: 10px;
+            } 
              /* для элемента input c type="checkbox" */
         .custom-checkbox {
             position: absolute;
@@ -297,14 +312,7 @@
         }
     }
 }
-.grid__row_3 {
-    display: grid;
-    grid-template-areas: 
-    "gender geo";
-    grid-template-columns: 0.64fr 0.36fr;
-    grid-template-rows: 242px;
-    column-gap: 32px;
-}
+
 .col__main {
     background-color: #fdfdff;
     border-radius: 13px;
@@ -326,7 +334,7 @@
     grid-template-columns: 1fr 0.45fr;
 }
 .cell__1__row_1 {
-    font-family: Gilroy;
+    font-family: "Gilroy Bold";
     font-size: 20px;
     font-weight: 700;
     line-height: 24px;
@@ -340,7 +348,7 @@
     }
 }
 .cell__3__row_1 {
-    font-family: Gilroy;
+    font-family: "Gilroy Medium";
     font-size: 20px;
     font-weight: 500;
     line-height: 24px;
@@ -348,7 +356,7 @@
     margin: 12px 0px 0px 23px;
 }
 .cell__4__row_1 {
-    font-family: Gilroy;
+    font-family: "Gilroy Medium";
     font-size: 20px;
     font-weight: 500;
     line-height: 24px;
@@ -363,6 +371,9 @@
 }
 .audience__main {
     grid-area: audience;
+    .audience__shedule img {
+        width: 100%;
+    }
     // #############################checkbox
 }
 .reach__main {
@@ -373,7 +384,7 @@
     // width: 288px;
     .title__reach {
         grid-column-start: span 2;
-        font-family: Gilroy;
+        font-family: "Gilroy Bold";
         font-size: 20px;
         font-style: normal;
         font-weight: 700;
@@ -417,7 +428,7 @@
         grid-template-columns: 26px 1fr;
         grid-template-rows: 27px 20px;
         span {
-            font-family: Gilroy;
+            font-family: "Gilroy Medium";
             font-size: 12px;
             font-style: normal;
             font-weight: 600;
@@ -444,12 +455,11 @@
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 2fr;
     .title__gender {
-    font-family: Gilroy;
+    font-family: "Gilroy Bold";
     font-size: 20px;
-    font-style: normal;
     font-weight: 700;
     line-height: 24px;
-    margin: 25px;
+    margin: 25px 0 0 25px;
     color: #4F4F4F;
     }
     .shedule__item_gender {
@@ -458,7 +468,7 @@
         justify-content: flex-end;
         margin-right: 30px;
         span {
-            font-family: Gilroy;
+            font-family: "Gilroy Medium";
             font-size: 12px;
             font-style: normal;
             font-weight: 600;
@@ -486,6 +496,9 @@
     .shedule__gender {
         grid-column-start: span 2;
         margin: 0 0 0 10px;
+        img {
+            width: 100%;
+        }
     }
 }
 .geo__main {
@@ -497,7 +510,7 @@
         margin: auto;
     }
     .title__geo {
-    font-family: Gilroy;
+    font-family: "Gilroy Bold";
     font-size: 20px;
     font-style: normal;
     font-weight: 700;
@@ -506,7 +519,7 @@
     margin-left: 25px;
     }
     .adress__geo {
-    font-family: Gilroy;
+    font-family: "Gilroy Medium";
     font-size: 12px;
     font-style: normal;
     font-weight: 600;
@@ -526,4 +539,139 @@
     }
     .shedule__geo-left {}
     .shedule__geo-right {}
+}
+@media  (max-width: 1320px) {
+    .container {
+        margin: 10px;
+    }
+
+}
+@media (max-width: 992px) {
+.container {
+    margin: 5px;
+    grid: none;
+    .header {
+        height: 80px;
+        margin: -5px 50px;
+    }
+    .content {
+        grid-template-rows: 70px 700px;
+        .main {
+            padding: 0 20px 0px 20px;
+        }
+    }
+    .sidebar {
+        grid: none;
+        display: flex;
+        justify-content: space-between;
+        .aside__menu {
+            width: 300px;
+        }
+        .switch {
+            margin: 25px;
+        }
+        .menu__list {
+            flex-direction: row;
+            height: 100%;
+        }
+        .logo__vk img {
+            margin-top: 25px;
+        }
+    }
+}
+}
+@media (max-width:767px) {
+   .container{
+    margin: 4px;
+    .sidebar {
+        justify-content: center;
+        .logo__vk {
+            margin: 3px 20px 0 0;
+        }
+    }
+    .content {
+        .header {
+            grid-template-columns: 161px 180px 0.05fr 1fr;
+        }
+        grid-template-rows: 1fr;
+    }
+}
+    .sidebar {
+        display: flex;
+        justify-content: center;
+    }
+    .switch {
+        margin: 25px 20px 0px 25px;
+    }
+    .logo__vk {}
+    .grid__row_1 {
+        grid: none;
+        gap: 16px;
+        padding: 0 16px;
+        .friends__main  {
+            grid-column-start: 1;
+            grid-row-start: 1;
+            height: 120px;
+            width: 400px;
+            margin: auto;
+        }
+        .uniq__main {
+            grid-column-start: 1;
+            grid-row-start: 2;
+            height: 120px;
+            width: 400px;
+            margin: auto;
+        }
+        .followers__main {
+            grid-column-start: 1;
+            grid-row-start: 3;
+            grid-row-end: 4;
+            height: 120px;
+            width: 400px;
+            margin: auto;
+        }
+    }
+    
+    .grid__row_2 {
+        grid: none;
+        gap: 16px;
+        padding: 0 16px;
+        margin-top: 20px;
+        .audience__main {
+            grid-column-start: 1;
+            grid-row-start: 1;
+            height: 190px;
+            width: 436px;
+            margin: auto;
+        }
+        .reach__main {
+            grid-column-start: 1;
+            grid-row-start: 2;
+            grid-row-end: 3;
+            height: 200px;
+            width: 400px;
+            margin: auto;
+        }
+    }
+    .grid__row_3 {
+        grid: none;
+        gap: 16px;
+        padding: 0 16px;
+        margin: 20px;
+    }
+    .gender__main {
+            grid-column-start: 1;
+            grid-row-start: 1;
+            height: 190px;
+            width: 436px;
+            margin: auto
+    }
+    .geo__main {
+        grid-column-start: 1;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        height: 200px;
+        width: 400px;
+        margin: auto;
+    }
 }
