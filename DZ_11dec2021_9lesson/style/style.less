@@ -1,9 +1,29 @@
 //compress: false
+body {
+    background-color: rgb(253, 253, 255);
+}
 .wrapper {
-    
+    max-width: 1600px;
+    max-height: 1200px;
+    margin: auto;
+    .back__img_unio {
+        position: absolute;
+        z-index: -1;
+        margin-top: -160px;
+        img {
+            width: 100%;
+        }
+    }
+    // .back__img_elips {
+    //     position: absolute;
+    //     margin: 798px 0px 0 1218px;
+    //     img {
+    //         width: 100%;
+    //     }
+    // } 
 }
 .container {
-    
+    background-color: #FDFDFF;
     display: grid;
     grid-template-columns: 98px 1fr;
     max-width: 1280px;
@@ -16,6 +36,8 @@
     display: grid;
     grid-template-rows: 1fr 1fr 1fr 0.65fr 0.35fr;
     grid-template-columns: 1fr;
+   
+    ;
     .logo__vk img {
         width: 42px;
         height: 24px;
@@ -547,7 +569,9 @@
 
 }
 @media (max-width: 992px) {
+    
 .container {
+    border-radius: 0;
     margin: 5px;
     grid: none;
     .header {
@@ -556,6 +580,7 @@
     }
     .content {
         grid-template-rows: 70px 700px;
+        border-radius: 0px;
         .main {
             padding: 0 20px 0px 20px;
         }
@@ -582,7 +607,9 @@
 }
 @media (max-width:767px) {
    .container{
+    border-radius: 0;
     margin: 4px;
+
     .sidebar {
         justify-content: center;
         .logo__vk {
@@ -590,6 +617,7 @@
         }
     }
     .content {
+        border-radius: 0px;
         .header {
             grid-template-columns: 161px 180px 0.05fr 1fr;
         }
