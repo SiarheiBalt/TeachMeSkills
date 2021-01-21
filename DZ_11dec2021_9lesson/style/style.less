@@ -238,7 +238,8 @@ body {
     column-gap: 32px;
     .audience__main {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+        // grid-template-columns: repeat(3, minmax(167px, 250px));
         grid-template-rows: 0.84fr 01.58fr;
 
         .audience__title {
@@ -571,7 +572,7 @@ body {
 @media (max-width: 992px) {
     
 .container {
-    border-radius: 0;
+    border-radius: 14px;
     margin: 5px;
     grid: none;
     .header {
@@ -580,7 +581,7 @@ body {
     }
     .content {
         grid-template-rows: 70px 700px;
-        border-radius: 0px;
+        border-radius: 0 0 14px 14px;
         .main {
             padding: 0 20px 0px 20px;
         }
@@ -607,7 +608,7 @@ body {
 }
 @media (max-width:767px) {
    .container{
-    border-radius: 0;
+    border-radius: 14px;
     margin: 4px;
 
     .sidebar {
@@ -617,7 +618,7 @@ body {
         }
     }
     .content {
-        border-radius: 0px;
+        border-radius: 0 0 14px 14px;
         .header {
             grid-template-columns: 161px 180px 0.05fr 1fr;
         }
@@ -701,5 +702,11 @@ body {
         height: 200px;
         width: 400px;
         margin: auto;
+    }
+    .audience__main {
+        grid-area: audience;
+        .audience__shedule img {
+            width: 94%;
+        }
     }
 }
